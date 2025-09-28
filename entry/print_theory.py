@@ -33,3 +33,19 @@
 #ПРОВЕРКА ПРОЙДЕННОГО МАТЕРИАЛА НА САЙТЕ ПО print() (решаю примеры с теста)
 # print("I'm", 'Just', 'Ken', "!") 
 # print('Hello, it's me!') # НЕПРАВИЛЬНО - ПРОИЗОЙДЕТ ОШИБКА
+
+
+
+# print('a', 'b', 'c', sep='*')
+# print('d', 'e', 'f', sep='**', end='')
+# print('g', 'h', 'i', sep='+', end='%')
+# print('j', 'k', 'l', sep='-', end='\n')
+# print('m', 'n', 'o', sep='/', end='!')
+# print('p', 'q', 'r', sep='1', end='%')
+# print('s', 't', 'u', sep='&', end='\n')
+# print('v', 'w', 'x', sep='%')
+# print('y', 'z', sep='/', end='!')
+
+
+print('a_b_c', end='')
+print('!')
