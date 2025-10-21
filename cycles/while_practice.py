@@ -130,19 +130,19 @@
 
 
 # num = int(input())
-# total1 = 0   # summa
+# total = 0   # summa
 # counter = 0  # kol-vo
-# total2 = 1   # proizvedenie
+# product = 1   # proizvedenie
 # last_digit = num % 10
 
 # while num != 0:
 #     first_digit = num % 10
-#     total1 += first_digit
+#     total += first_digit
 #     counter += 1
-#     total2 *= first_digit
+#     product *= first_digit
 #     num = num // 10
 
-# print(total1, counter, total2, total1 / counter, first_digit, first_digit + last_digit, sep = '\n')
+# print(total, counter, product, total / counter, first_digit, first_digit + last_digit, sep = '\n')
 
 
 
@@ -183,3 +183,85 @@
 #     print('YES')
 # else:
 #     print('NO')
+
+
+
+
+# n = int(input())
+# max_digit = -1  
+
+# while n > 0:
+#     digit = n % 10 
+#     if digit % 3 == 0 and digit > max_digit:
+#         max_digit = digit
+#     n = n // 10  
+
+# if max_digit == -1:
+#     print('NO')
+# else:
+#     print(max_digit)
+
+
+
+
+# total = 0
+# mx = -10**6 - 1
+# flag = False
+
+# for i in range(10):
+#     num = int(input())
+#     if num < 0:
+#         total += num
+#         if not flag or num > mx:
+#             mx = num
+#         flag = True
+
+# if flag:
+#     print(total)
+#     print(mx)
+# else:
+#     print('NO')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -310,6 +310,114 @@
 
 
 
+# num = int(input())
+
+# for _ in range(2, num + 1):
+#     if num % _ == 0:
+#         print(_)
+#         break
+
+
+
+
+# num = int(input())
+
+# for _ in range(1, num+1):
+#     if 5 <= _ <= 9:
+#         continue
+#     if 17 <= _ <= 37:
+#         continue
+#     if 78 <= _ <= 87:
+#         continue   
+#     print(_) 
+
+
+
+
+# total = 0
+# mx = -10**6 - 1
+# flag = False
+
+# for i in range(10):
+#     num = int(input())
+#     if num < 0:
+#         total += num
+#         if not flag or num > mx:
+#             mx = num
+#         flag = True
+
+# if flag:
+#     print(total)
+#     print(mx)
+# else:
+#     print('NO')
+
+
+
+# ПРОГРАММА ЧТО ПЕЧАТАЕТ ТАБЛИЦУ СОСТОЯЩУЮ ИЗ ДАННОГО ЧИСЛА
+# num = int(input())
+
+# for i in range(num):
+#     for j in range(3):
+#         print(num, end=' ')
+#     print()   
+
+
+
+
+# ПРОГРАММА ЧТО ВЫВОДИТ ТАБЛИЦУ В КОТОРОЙ В КАЖДОЙ i-ой СТРОКЕ УКАЗАНО ЧИСЛО i
+# num = int(input())
+
+# for i in range(1, num + 1):
+#     for j in range(5):
+#         print(i, end=' ')
+#     print()
+
+
+
+
+# ПРОГРАММА ЧТО ВЫВОДИТ ТАБЛИЦУ СЛОЖЕНИЯ
+# num = int(input())
+
+# for i in range(1, num + 1):
+#     for j in range(1, 10):
+#         print(i, '+', j, '=', i + j)
+#     print()
+
+
+
+
+# ПРОГРАММА ЧТО ВЫВОДИТ РАВНОБЕДРЕННЫЙ ТРЕУГОЛЬНИК 
+# num = int(input())
+# mid = num // 2 + 1
+
+# for i in range(1, mid + 1):
+#     for j in range(i):
+#         print('*', end='')
+#     print()
+
+# for i in range(mid - 1, 0, -1):
+#     for j in range(i):
+#         print('*', end='')
+#     print()
+
+
+
+
+# ПРОГРАММА ЧТО ВЫВОДИТ ТРЕУГОЛЬНИК ИЗ ЧИСЕЛ 
+# num = int(input())
+
+# for i in range(1, num + 1):
+#     for j in range(i ):
+#         print(i, end = '')
+#     print()
+
+
+
+
+
+#                                                           ИСПОЛЬЗОВАНИЕ ВЛОЖЕННЫХ ЦИКЛОВ ДЛЯ РЕШЕНИЯ УРАВНЕНИЙ
+
 
 
 
